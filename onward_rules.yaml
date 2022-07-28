@@ -1,0 +1,366 @@
+rules:
+  - index: 1
+    title: Code of Conduct
+    rules:
+      - text: |
+          Every participant in the International Virtual Reality League
+          ("IVRL" or "the league") is expected to behave with respect towards
+          other players (not just league players), IVRL staff, officials,
+          production team, and game developers. By joining IVRL you become a
+          representative of the league and shall act accordingly. The
+          following principles shall guide your behavior in game and also in
+          Discord, Twitch, and other chats and media:
+        ulwrap: true
+        rules:
+          - text: |
+              Helpfulness: IVRL serves the community. Helping each other
+              builds community bonds and fosters a welcoming environment for
+              new players.
+          - text: |
+              Respect: Treating others with respect is fundamental. IVRL will
+              not tolerate toxic behavior.
+          - text: |
+              Integrity: IVRL is committed to play fair play. These rules
+              provide the bare minimum. Players should hold themselves to a
+              standard of integrity above what these rules require.
+      - text: |
+          IVRL is against any toxic behavior. It is therefore expected that no
+          IVRL members will engage in any hateful or harassing activities. A
+          non-exhaustive list of prohibited behaviors includes:
+        ulwrap: true
+        rules:
+          - text: |
+              Hate speech, offensive behavior, or verbal abuse related to sex,
+              gender identity and expression, sexual orientation, race,
+              ethnicity, disability, physical appearance, body size, age, or
+              eligion.
+          - text: |
+              Stalking or intimidation (physically or online).
+          - text: |
+              Spamming, raiding, hijacking, or inciting disruption of streams
+              or social media.
+          - text: |
+              Posting or threatening to post other people’s personally
+              identifying information ("doxxing").
+          - text: |
+              Unwelcome sexual attention. This includes unwelcome sexualized
+              comments, jokes, and sexual advances.
+          - text: |
+              Advocating for, or encouraging, any of the above behaviour.
+      - text: |
+          Any accusations of improper play or conduct shall be brought
+          directly to a Referee or Strategic Director through the use of a
+          ticket. Prohibited behaviors witnessed by an IVRL Official could
+          result in punishment without being reported in a ticket.
+      - text: |
+          All players are presumed to have read these rules. Ignorance of
+          these rules is not a defense. In some cases, Team Captains may be
+          held responsible for the behavior of members of their team.
+          Therefore, Team Captains should make every effort to ensure that
+          their team members have read and understand these rules. Being a
+          Team Captain is an important responsibility and should not be taken
+          on lightly.
+   - index: 2
+     title: Match format
+     rules:
+       - index: 2.1
+         title: Match format
+         rules:
+           - highlight: new
+             text: |
+               An IVRL match consists of two (2) maps with a 3rd map used as a tie-breaker.
+           - highlight: new
+             text: |
+               The first two maps shall be played in a best of nine (9) format with first team with 5 points to win.
+           - highlight: new
+             text: |
+               In the event of teams ending in a map tie (1-1) at the end of the second map, the teams will proceed to play a 3rd map tie-breaker in a best of five (5) format with first team to 3 points to win.
+               <img class="w-22 py-3" src="/images/onward/match-settings.jpg" alt="match settings" />
+            - text: |
+              All matches are to be played with the following settings:
+                ulwrap: true
+                rules:
+                  - text: |
+                      Game mode must be "Uplink";
+                  - text: |
+                      "Challenge" must be set to "Competitive";
+                  - text: |
+                      "VR Spectating" must be disabled;
+                  - text: |
+                      "Round Timer" must be set to 6 minutes; and
+                  - text: |
+                      "Allow Casters" must be set to "No" unless a caster is assigned to the match.
+            - highlight: new
+              text: |
+                All matches shall be played on the most recent commercially available version of the game, i.e., not the developer build, unless IVRL Official announce otherwise. Players with access to developer builds should notify IVRL before playing in a match.
+            - text: |
+                IVRL will announce the available maps at the start of the season.
+                ulwrap: true
+                rules:
+                  - text: |
+                      No other maps shall be played except at the discretion of IVRL Officials.
+                  - highlight: new
+                    text: |
+                      A Map and its variants may only be played once per match.
+                  - text: |
+                      Players and teams are expected to promptly download the latest version of the map from the Workshop.
+                  - text: |
+                      Failure to download the current version of a custom map before a match does not excuse any player or team from playing it and will result in a forfeit if any player is unable to download the map during the match.
+                  - highlight: new
+                    text: |
+                      Only day varients of custom maps are allowed.
+                  - text: |
+                      The following maps are available for Season 2:
+                        ulwrap: true
+                        rules:
+                          - text: |
+                              Cargo
+                          - text: |
+                              Suburbia
+                          - text: |
+                              Bazaar
+                          - text: |
+                              Subway
+                          - text: |
+                              Quarantine (Large)
+                          - text: |
+                              Snowpeak (Large)
+                          - text: |
+                              Abandoned (Large)
+                          - text: |
+                              Downfall (Large)
+                          - highlight: new
+                            text: |
+                              USS Quest (Set 1 Only)
+                          - highlight: new
+                            text: |
+                              Shipyard (Set 1 Only)
+                          - highlight: new
+                            text: |
+                              Tanker (Set 2 Only)
+                          - highlight: new
+                            text: |
+                              Sand (Set 2 Only)
+                          - highlight: new
+                            text: |
+                              Arctic (Set 3 Only)
+                          - highlight: new
+                            text: |
+                              Hook 2.0 (Set 3 Only)
+        - index: 2.2
+          title: Before The match
+          rules:
+            - text: |
+                Inactive Status. No more than once per season, each team may choose to be inactive for the following week.
+                ulwrap: true
+                rules:
+                  - highlight: new
+                    text: |
+                      Teams may not be inactive during any of the final three weeks of the season. If a team is inactive during the final 3 weeks, they forfeit their eligibility to participate in the Regional Post Season Finals.
+                  - text: |
+                      Teams must alert IVRL of their intent to be inactive before 1000 UTC on the Monday of the week they intend to be inactive.
+            - text: |
+                IVRL will generate and post the weekly matches on Mondays at approximately 1600 UTC.
+            - text: |
+                Scheduling. The Captains of each team matched up are responsible for scheduling with each other.
+                ulwrap: true
+                rules:
+                  - text: |
+                      Scheduling should be carried out through Discord. The IVRL Discord and website will have contact details for all Captains.
+                  - highlight: new
+                    text: |
+                      Teams may, for any reason, postpone a match to the following calendar week once per season.
+                  - highlight: new
+                    text: |
+                      A match from the last week of the season is not allowed to be postponed.
+                  - text: |
+                      All matches must be scheduled or postponed by Thursday 2000 UTC of match week.
+                  - text: |
+                      Cast Scheduling. Teams must ensure that a match is scheduled with sufficient notice for potential casts. Matches must be scheduled in advance of play by:
+                        ulwrap: true
+                        rules:
+                          - text: |
+                              6 hours on Mondays and Tuesdays;
+                          - text: |
+                              12 hours on all other days; or
+                          - text: |
+                              a shorter period approved by an IVRL Official.
+                  - text: |
+                      Rescheduling. Teams should avoid having to reschedule matches after they have already agreed to a time.
+                          - highlight: new
+                            text: |
+                              A team that needs to reschedule a match to a different day receives 2 penalty points for doing so.
+                          - text: |
+                              A team that reschedules after the deadline in Section 2.2(1)(3) receives a penalty for <a href="#late_scheduling" class="text-ivrl-light-blue">Late Scheduling</a>
+                          - highlight: new
+                            text: |
+                              A match may not be rescheduled within 2 hours of the current scheduled match time.
+                          - highlight: new
+                            text: |
+                              Same day schedule adjustments are allowed outside of the 2 hour window.
+                  - text: |
+                      Any team whose lack of diligence causes the failure to schedule a match on time or with sufficient notice commits a rule violation <a href="#late_scheduling" class="text-ivrl-light-blue">Late Scheduling</a> and may also, at IVRL's discretion, attract secondary rule violations <a href="#ivrl_cast_obstruction" class="text-ivrl-light-blue">IVRL Cast Obstruction</a>.
+                  - highlight: new
+                    text: |
+                      Scheduling Disputes
+                      ulwrap: true
+                      rules:
+                          - highlight
+                            text: |
+                              If common time cannot be found between the two teams, Officials should be notified before the scheduling deadline to assist. The following guidelines are used for determining which teams uses a postpone or forfeits for lack of availability.
+                          - highlight
+                            text: |
+                              The different regions have their own exepcted time to schedule the matches. Availability outside of the ideal time will not be considered during the availability review.
+                          - highlight
+                            text: |
+                              NA Region: 19:00 - 22:00 ET on Weekdays. 18:00 - 23:00 ET on weekends.
+                          - highlight
+                            text: |
+                              EU Region: 19:00 - 22:00 UTC on Weekdays. 18:00 - 23:00 UTC on weekends.
+                          - highlight
+                            text: |
+                              Being available during the weekday time slot will award 1 scheduling point. 1.5 points will be awarded for the weekend time slot.
+                          - highlight
+                            text: |
+                              The team with the fewest scheduling points after the review will be required to adjust their schedule, use a postponement, or forfeit the match.
+                          - highlight
+                            text: |
+                              If a team forfeits more than 3 times in a season due to scheduling or availability issues, League Officials can force team inactivity until the issues are resolved by the team.
+            - text: |
+                Bans. No later than 15 minutes before each match, each team may choose two maps to ban.
+            - text: |
+                All matches are to be completed by 10:00UTC on the Monday following the match week.
+        - index: 2.3
+          title: During the Match
+          rules:
+            - text: |
+              Host
+              ulwrap: true
+              rules:
+                - text: |
+                    The HOME TEAM will create and host the lobby for MAP 1 at least five (5) minutes before the designated match start time.
+                - text: |
+                    The AWAY TEAM will create and host the lobby for MAP 2 immediately after MAP 1 has been completed.
+                - highlight: new
+                  text: |
+                    The team that won the most rounds during the first two maps or, if rounds are tied, the team with the higher standings position will create and host the lobby for MAP 3 immediately after Map 2 has been completed.
+                - highlight: new
+                  text: |
+                    Only if both teams agree, the match can proceed to the next map without recreating the lobby. The next map can be picked and host can be passed after loading in.
+            - text: |
+              Sides (Volk/Marsoc)
+              ulwrap: true
+              rules:
+                - text: |
+                    On MAP 1, the Home team may elect to either choose the map or the side they will play first. The Away team makes the alternate decision.
+                - text: |
+                    On MAP 2, the Away team may elect to either choose the map or the side they will play first. The Home team makes the alternate decision.
+                - highlight: new
+                  text: |
+                      On MAP 3, the team that that won the most rounds during the first two maps may elect to either choose the map or the side they will play first. The other team makes the alternate decision. If the total rounds are tied, the lower ranked team will choose side or map based on the standings order at the time of the match.
+                - text: |
+                  Teams may not choose the same map for both rounds.
+            - text: |
+              Start Time
+              ulwrap: true
+              rules:
+                - text: |
+                    Match is expected to start at the scheduled time
+                - text: |
+                    The latest MAP 1 is allowed to start is five minutes after the scheduled time
+                - text: |
+                    Unless both teams agree, a team unable to commence MAP 1 within the allowed time will forfeit that map and will be subject to a rule violation. <a href="#excessive_delay" class="text-ivrl-light-blue">Excessive Delay</a>
+                - text: |
+                    Where MAP 1 was forfeit, and MAP 2 is delayed more than fifteen minutes, then the match shall be forfeited to the team who was present/ready and an additional rule violation applies  <a href="#no_shows" class="text-ivrl-light-blue">No Shows</a>.
+                - text: |
+                    The team hosting MAP 2 must open the lobby for MAP 2 no later than five minutes after the conclusion of MAP 1.
+                - highlight: new
+                  text: |
+                    The latest MAP 2 or 3 is allowed to start is 10 minutes after the conclusion of MAP 1 or 2 respectively.
+                - highlight: new
+                  text: |
+                    Any team unable to start MAP 2 or 3 within 10 minutes of the successful conclusion of MAP 1 or 2 must use a Timeout or else forfeit MAP 2 or 3.
+                - text: |
+                    After the first round of each map, the lobby host shall start each round no later than 90 seconds after the conclusion of the prior round. Intentional or excessive violation of this rule will be subject to a rule violation. <a href="#excessive_delay" class="text-ivrl-light-blue">Excessive Delay</a>
+                - text: |
+                    Teams may not use the Round Reset mechanic, nor any other game mechanic, to stall for additional time prior to the start of a round.  <a href="#excessive_delay" class="text-ivrl-light-blue">Excessive Delay</a>
+            - text: |
+              Timeouts
+              ulwrap: true
+              rules:
+                - text: |
+                    Each team is allowed two (2) timeouts per match
+                - text: |
+                    Timeouts may not be used consecutively; at least one round must be played between timeouts.
+                - text: |
+                    Each timeout is a maximum of 8 minutes from the end of the previous round.
+                - text: |
+                    Teams may end their time out before 8 minutes have elapsed only if both teams are present and prepared to play.
+                - text: |
+                    Following a timeout, any team unprepared to play at the end of 8 minutes will be penalized <a href="#excessive_delay" class="text-ivrl-light-blue">Excessive Delay</a>
+                - highlight: new
+                  text: |
+                    A timeout is not allowed before the first round of the match is played.
+                - highlight: new
+                  text: |
+                    At the end of a timeout, the teams must play with the active players in lobby, or forfeit the match.
+            - text: |
+              Players
+              ulwrap: true
+              rules:
+                - text: |
+                    Only rostered players or registered reservists may play in IVRL matches.
+                - text: |
+                    Each team must field at least four players for the entire match.
+                - text: |
+                    For the entire match, at least three players on each team must be on the team’s roster.
+                - text: |
+                    Before a reservist plays a round, the team using the reservist must notify the opposing team that they intend to use a reservist either:
+                    ulwrap: true
+                    rules:
+                        - text: |
+                            in Discord before the match, or
+                        - text: |
+                            in the tent such that the notice is captured on POV footage.
+                - text: |
+                    A team may not field more than one reservist at a time during a match.
+                - text: |
+                    A team may not start a map using a reservist if doing so would result in having more players than the opposing team.
+                  ulwrap: true
+                  rules:
+                        - text: |
+                          If an opposing player disconnects during a map, teams are not required to drop a reservist to comply with this rule until the map is over.
+                - text: |
+                    Any team fielding an invalid player will be treated as a rule violation <a href="#invalid_player" class="text-ivrl-light-blue">Invalid Player</a>.
+            - text: |
+                Casted matches - Spoilers
+              ulwrap: true
+              rules:
+                - text: |
+                    Players may not participate in the stream chat of casts of matches in which they have played unless and until the final round of the match ends on the cast.
+                - highlight: new
+                  text: |
+                      If a casted team's player is subbed out, they can participate in the stream chat of casts AFTER the rounds they played in are finished.
+                - text: |
+                    Participating in the stream chat of a cast of a player’s own match before the cast shows the end of the final round will incur penalty points <a href="#participating_in_cast_of_your_match" class="text-ivrl-light-blue">Participating in cast of your match</a>.
+        - index: 2.4
+          title: After the Match
+          rules:
+            - text: |
+                Either team in a match should submit scores as soon as practicable post game.
+            - text: |
+                The submitting team's score must be:
+              ulwrap: true
+              rules:
+                  - text: |
+                      confirmed by their opponent, locking in the result or
+                  - text: |
+                      amended for errors by their match opponent and confirmed by the original submitter.
+            - text: |
+                Scores shall be submitted no later than 24 hours after match is completed.
+            - text: |
+                Failure to confirm/amend by the second team after 24 hours will result in automatic acceptance of submitted score.
+            - text: |
+                Failure by both teams to submit the results of a scheduled match is considered a team rule violation <a href="#late_scores" class="text-ivrl-light-blue">Late Scores</a>.
+            - text: |
+                All disputes concerning scoring must be made via Discord ticket.
