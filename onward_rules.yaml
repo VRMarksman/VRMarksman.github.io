@@ -60,307 +60,1385 @@ rules:
           their team members have read and understand these rules. Being a
           Team Captain is an important responsibility and should not be taken
           on lightly.
-   - index: 2
-     title: Match format
-     rules:
-       - index: 2.1
-         title: Match format
-         rules:
-           - highlight: new
-             text: |
-               An IVRL match consists of two (2) maps with a 3rd map used as a tie-breaker.
-           - highlight: new
-             text: |
-               The first two maps shall be played in a best of nine (9) format with first team with 5 points to win.
-           - highlight: new
-             text: |
-               In the event of teams ending in a map tie (1-1) at the end of the second map, the teams will proceed to play a 3rd map tie-breaker in a best of five (5) format with first team to 3 points to win.
-               <img class="w-22 py-3" src="/images/onward/match-settings.jpg" alt="match settings" />
-            - text: |
-              All matches are to be played with the following settings:
-                ulwrap: true
-                rules:
-                  - text: |
-                      Game mode must be "Uplink";
-                  - text: |
-                      "Challenge" must be set to "Competitive";
-                  - text: |
-                      "VR Spectating" must be disabled;
-                  - text: |
-                      "Round Timer" must be set to 6 minutes; and
-                  - text: |
-                      "Allow Casters" must be set to "No" unless a caster is assigned to the match.
+  - index: 2
+    title: Match format
+    rules:
+    - index: 2.1
+      title: Match format
+      rules:
+        - highlight: new
+          text: |
+              An IVRL match consists of two (2) maps with a 3rd map used as a tie-breaker.
+        - highlight: new
+          text: |
+              The first two maps shall be played in a best of nine (9) format with first team with 5 points to win.
+        - highlight: new
+          text: |
+              In the event of teams ending in a map tie (1-1) at the end of the second map, the teams will proceed to play a
+              3rd map tie-breaker in a best of five (5) format with first team to 3 points to win.
+              <img class="w-22 py-3" src="/images/onward/match-settings.jpg" alt="match settings" />
+        - text: |
+            All matches are to be played with the following settings:
+          ulwrap: true
+          rules:
+            - text: Game mode must be "Uplink;
+            - text: Challenge" must be set to "Competitive;
+            - text: VR Spectating" must be disabled;
+            - text: Round Timer must be set to 6 minutes; and
+            - text: Allow Casters" must be set to "No" unless a caster is assigned to the match.
             - highlight: new
               text: |
-                All matches shall be played on the most recent commercially available version of the game, i.e., not the developer build, unless IVRL Official announce otherwise. Players with access to developer builds should notify IVRL before playing in a match.
-            - text: |
-                IVRL will announce the available maps at the start of the season.
-                ulwrap: true
-                rules:
-                  - text: |
-                      No other maps shall be played except at the discretion of IVRL Officials.
-                  - highlight: new
-                    text: |
-                      A Map and its variants may only be played once per match.
-                  - text: |
-                      Players and teams are expected to promptly download the latest version of the map from the Workshop.
-                  - text: |
-                      Failure to download the current version of a custom map before a match does not excuse any player or team from playing it and will result in a forfeit if any player is unable to download the map during the match.
-                  - highlight: new
-                    text: |
-                      Only day varients of custom maps are allowed.
-                  - text: |
-                      The following maps are available for Season 2:
-                        ulwrap: true
-                        rules:
-                          - text: |
-                              Cargo
-                          - text: |
-                              Suburbia
-                          - text: |
-                              Bazaar
-                          - text: |
-                              Subway
-                          - text: |
-                              Quarantine (Large)
-                          - text: |
-                              Snowpeak (Large)
-                          - text: |
-                              Abandoned (Large)
-                          - text: |
-                              Downfall (Large)
-                          - highlight: new
-                            text: |
-                              USS Quest (Set 1 Only)
-                          - highlight: new
-                            text: |
-                              Shipyard (Set 1 Only)
-                          - highlight: new
-                            text: |
-                              Tanker (Set 2 Only)
-                          - highlight: new
-                            text: |
-                              Sand (Set 2 Only)
-                          - highlight: new
-                            text: |
-                              Arctic (Set 3 Only)
-                          - highlight: new
-                            text: |
-                              Hook 2.0 (Set 3 Only)
-        - index: 2.2
-          title: Before The match
+                All matches shall be played on the most recent commercially available version of the game, i.e.,
+                not the developer build, unless IVRL Official announce otherwise. Players with access to developer
+                builds should notify IVRL before playing in a match.
+            - text: IVRL will announce the available maps at the start of the season.
+              ulwrap: true
+              rules:
+                - text: No other maps shall be played except at the discretion of IVRL Officials.
+                - highlight: new
+                  text: A Map and its variants may only be played once per match.
+                - text: Players and teams are expected to promptly download the latest version of the map from the Workshop.
+                - text: |
+                    Failure to download the current version of a custom map before a match does not excuse any player
+                    or team from playing it and will result in a forfeit if any player is unable to download the map during the match.
+                - highlight: new
+                  text: Only day varients of custom maps are allowed.
+                - text: |
+                    The following maps are available for Season 2:
+                    <ul>
+                      <li>Cargo</li>
+                      <li>Suburbia</li>
+                      <li>Bazaar</li>
+                      <li>Subway</li>
+                      <li>Quarantine (Large)</li>
+                      <li>Snowpeak (Large)</li>
+                      <li>Abandoned (Large)</li>
+                      <li>Downfall (Large)</li>
+                      <li>USS Quest (Set 1 Only)</li>
+                      <li>Shipyard (Set 1 Only)</li>
+                      <li>Tanker (Set 2 Only)</li>
+                      <li>Sand (Set 2 Only)</li>
+                      <li>Arctic (Set 3 Only)</li>
+                      <li>Hook 2.0 (Set 3 Only)</li>
+                    </ul>
+    - index: 2.2
+      title: Before The match
+      rules:
+        - text: |
+            Inactive Status. No more than once per season, each team may choose to be inactive for the following week.
+          ulwrap: true
           rules:
+            - highlight: new
+              text: |
+                Teams may not be inactive during any of the final three weeks of the season.
+                If a team is inactive during the final 3 weeks, they forfeit their eligibility
+                to participate in the Regional Post Season Finals.
             - text: |
-                Inactive Status. No more than once per season, each team may choose to be inactive for the following week.
-                ulwrap: true
-                rules:
-                  - highlight: new
-                    text: |
-                      Teams may not be inactive during any of the final three weeks of the season. If a team is inactive during the final 3 weeks, they forfeit their eligibility to participate in the Regional Post Season Finals.
-                  - text: |
-                      Teams must alert IVRL of their intent to be inactive before 1000 UTC on the Monday of the week they intend to be inactive.
+                Teams must alert IVRL of their intent to be inactive before 1000 UTC on the Monday
+                of the week they intend to be inactive.
             - text: |
                 IVRL will generate and post the weekly matches on Mondays at approximately 1600 UTC.
             - text: |
                 Scheduling. The Captains of each team matched up are responsible for scheduling with each other.
-                ulwrap: true
-                rules:
-                  - text: |
-                      Scheduling should be carried out through Discord. The IVRL Discord and website will have contact details for all Captains.
-                  - highlight: new
-                    text: |
-                      Teams may, for any reason, postpone a match to the following calendar week once per season.
-                  - highlight: new
-                    text: |
-                      A match from the last week of the season is not allowed to be postponed.
-                  - text: |
-                      All matches must be scheduled or postponed by Thursday 2000 UTC of match week.
-                  - text: |
-                      Cast Scheduling. Teams must ensure that a match is scheduled with sufficient notice for potential casts. Matches must be scheduled in advance of play by:
-                        ulwrap: true
-                        rules:
-                          - text: |
-                              6 hours on Mondays and Tuesdays;
-                          - text: |
-                              12 hours on all other days; or
-                          - text: |
-                              a shorter period approved by an IVRL Official.
-                  - text: |
-                      Rescheduling. Teams should avoid having to reschedule matches after they have already agreed to a time.
-                          - highlight: new
-                            text: |
-                              A team that needs to reschedule a match to a different day receives 2 penalty points for doing so.
-                          - text: |
-                              A team that reschedules after the deadline in Section 2.2(1)(3) receives a penalty for <a href="#late_scheduling" class="text-ivrl-light-blue">Late Scheduling</a>
-                          - highlight: new
-                            text: |
-                              A match may not be rescheduled within 2 hours of the current scheduled match time.
-                          - highlight: new
-                            text: |
-                              Same day schedule adjustments are allowed outside of the 2 hour window.
-                  - text: |
-                      Any team whose lack of diligence causes the failure to schedule a match on time or with sufficient notice commits a rule violation <a href="#late_scheduling" class="text-ivrl-light-blue">Late Scheduling</a> and may also, at IVRL's discretion, attract secondary rule violations <a href="#ivrl_cast_obstruction" class="text-ivrl-light-blue">IVRL Cast Obstruction</a>.
-                  - highlight: new
-                    text: |
-                      Scheduling Disputes
+              ulwrap: true
+              rules:
+                - text: |
+                    Scheduling should be carried out through Discord. The IVRL Discord and website will have contact details 
+                    for all Captains.
+                - highlight: new
+                  text: |
+                    Teams may, for any reason, postpone a match to the following calendar week once per season.
+                - highlight: new
+                  text: |
+                    A match from the last week of the season is not allowed to be postponed.
+                - text: |
+                    All matches must be scheduled or postponed by Thursday 2000 UTC of match week.
+                - text: |
+                    Cast Scheduling. Teams must ensure that a match is scheduled with sufficient notice for potential casts. Matches must 
+                    be scheduled in advance of play by:
+                  ulwrap: true
+                  rules:
+                    - text: 6 hours on Mondays and Tuesdays;
+                    - text: 12 hours on all other days; or
+                    - text: a shorter period approved by an IVRL Official.
+                    - text: Rescheduling. Teams should avoid having to reschedule matches after they have already agreed to a time.
+                    - highlight: new
+                      text: A team that needs to reschedule a match to a different day receives 2 penalty points for doing so.
+                    - text: |
+                        A team that reschedules after the deadline in Section 2.2(1)(3) receives a penalty for
+                        <a href="#late_scheduling" class="text-ivrl-light-blue">Late Scheduling</a>
+                    - highlight: new
+                      text: A match may not be rescheduled within 2 hours of the current scheduled match time.
+                    - highlight: new
+                      text: Same day schedule adjustments are allowed outside of the 2 hour window.
+                    - text: |
+                        Any team whose lack of diligence causes the failure to schedule a match on time or with sufficient
+                        notice commits a rule violation <a href="#late_scheduling" class="text-ivrl-light-blue">Late Scheduling</a>
+                        and may also, at IVRL's discretion, attract secondary rule violations
+                        <a href="#ivrl_cast_obstruction" class="text-ivrl-light-blue">IVRL Cast Obstruction</a>.
+                    - highlight: new
+                      text: |
+                        Scheduling Disputes
                       ulwrap: true
                       rules:
-                          - highlight
+                          - highlight: true
                             text: |
-                              If common time cannot be found between the two teams, Officials should be notified before the scheduling deadline to assist. The following guidelines are used for determining which teams uses a postpone or forfeits for lack of availability.
-                          - highlight
+                              If common time cannot be found between the two teams, Officials should be notified before the scheduling
+                              deadline to assist. The following guidelines are used for determining which teams uses a postpone or
+                              forfeits for lack of availability.
+                          - highlight: true
                             text: |
-                              The different regions have their own exepcted time to schedule the matches. Availability outside of the ideal time will not be considered during the availability review.
-                          - highlight
+                              The different regions have their own exepcted time to schedule the matches. Availability outside of the ideal time
+                              will not be considered during the availability review.
+                          - highlight: true
+                            text: "NA Region: 19:00 - 22:00 ET on Weekdays. 18:00 - 23:00 ET on weekends."
+                          - highlight: true
+                            text: "EU Region: 19:00 - 22:00 UTC on Weekdays. 18:00 - 23:00 UTC on weekends."
+                          - highlight: true
                             text: |
-                              NA Region: 19:00 - 22:00 ET on Weekdays. 18:00 - 23:00 ET on weekends.
-                          - highlight
+                              Being available during the weekday time slot will award 1 scheduling point. 1.5 points will be awarded for the 
+                              weekend time slot.
+                          - highlight: true
                             text: |
-                              EU Region: 19:00 - 22:00 UTC on Weekdays. 18:00 - 23:00 UTC on weekends.
-                          - highlight
+                              The team with the fewest scheduling points after the review will be required to adjust their schedule, use a postponement, 
+                              or forfeit the match.
+                          - highlight: true
                             text: |
-                              Being available during the weekday time slot will award 1 scheduling point. 1.5 points will be awarded for the weekend time slot.
-                          - highlight
-                            text: |
-                              The team with the fewest scheduling points after the review will be required to adjust their schedule, use a postponement, or forfeit the match.
-                          - highlight
-                            text: |
-                              If a team forfeits more than 3 times in a season due to scheduling or availability issues, League Officials can force team inactivity until the issues are resolved by the team.
+                              If a team forfeits more than 3 times in a season due to scheduling or availability issues, League Officials can force team 
+                              inactivity until the issues are resolved by the team.
             - text: |
                 Bans. No later than 15 minutes before each match, each team may choose two maps to ban.
             - text: |
                 All matches are to be completed by 10:00UTC on the Monday following the match week.
-        - index: 2.3
-          title: During the Match
+    - index: 2.3
+      title: During the Match
+      rules:
+        - text: Host
+          ulwrap: true
           rules:
             - text: |
-              Host
-              ulwrap: true
-              rules:
-                - text: |
-                    The HOME TEAM will create and host the lobby for MAP 1 at least five (5) minutes before the designated match start time.
-                - text: |
-                    The AWAY TEAM will create and host the lobby for MAP 2 immediately after MAP 1 has been completed.
-                - highlight: new
-                  text: |
-                    The team that won the most rounds during the first two maps or, if rounds are tied, the team with the higher standings position will create and host the lobby for MAP 3 immediately after Map 2 has been completed.
-                - highlight: new
-                  text: |
-                    Only if both teams agree, the match can proceed to the next map without recreating the lobby. The next map can be picked and host can be passed after loading in.
+                The HOME TEAM will create and host the lobby for MAP 1 at least five (5) minutes before the designated match start time.
             - text: |
-              Sides (Volk/Marsoc)
-              ulwrap: true
-              rules:
-                - text: |
-                    On MAP 1, the Home team may elect to either choose the map or the side they will play first. The Away team makes the alternate decision.
-                - text: |
-                    On MAP 2, the Away team may elect to either choose the map or the side they will play first. The Home team makes the alternate decision.
-                - highlight: new
-                  text: |
-                      On MAP 3, the team that that won the most rounds during the first two maps may elect to either choose the map or the side they will play first. The other team makes the alternate decision. If the total rounds are tied, the lower ranked team will choose side or map based on the standings order at the time of the match.
-                - text: |
-                  Teams may not choose the same map for both rounds.
+                The AWAY TEAM will create and host the lobby for MAP 2 immediately after MAP 1 has been completed.
+            - highlight: new
+              text: |
+                The team that won the most rounds during the first two maps or, if rounds are tied, the team with the higher
+                standings position will create and host the lobby for MAP 3 immediately after Map 2 has been completed.
+            - highlight: new
+              text: |
+                Only if both teams agree, the match can proceed to the next map without recreating the lobby. The next map can
+                be picked and host can be passed after loading in.
+        - text: Sides (Volk/Marsoc)
+          ulwrap: true
+          rules:
             - text: |
-              Start Time
-              ulwrap: true
-              rules:
-                - text: |
-                    Match is expected to start at the scheduled time
-                - text: |
-                    The latest MAP 1 is allowed to start is five minutes after the scheduled time
-                - text: |
-                    Unless both teams agree, a team unable to commence MAP 1 within the allowed time will forfeit that map and will be subject to a rule violation. <a href="#excessive_delay" class="text-ivrl-light-blue">Excessive Delay</a>
-                - text: |
-                    Where MAP 1 was forfeit, and MAP 2 is delayed more than fifteen minutes, then the match shall be forfeited to the team who was present/ready and an additional rule violation applies  <a href="#no_shows" class="text-ivrl-light-blue">No Shows</a>.
-                - text: |
-                    The team hosting MAP 2 must open the lobby for MAP 2 no later than five minutes after the conclusion of MAP 1.
-                - highlight: new
-                  text: |
-                    The latest MAP 2 or 3 is allowed to start is 10 minutes after the conclusion of MAP 1 or 2 respectively.
-                - highlight: new
-                  text: |
-                    Any team unable to start MAP 2 or 3 within 10 minutes of the successful conclusion of MAP 1 or 2 must use a Timeout or else forfeit MAP 2 or 3.
-                - text: |
-                    After the first round of each map, the lobby host shall start each round no later than 90 seconds after the conclusion of the prior round. Intentional or excessive violation of this rule will be subject to a rule violation. <a href="#excessive_delay" class="text-ivrl-light-blue">Excessive Delay</a>
-                - text: |
-                    Teams may not use the Round Reset mechanic, nor any other game mechanic, to stall for additional time prior to the start of a round.  <a href="#excessive_delay" class="text-ivrl-light-blue">Excessive Delay</a>
+                On MAP 1, the Home team may elect to either choose the map or the side they will play first. The Away team makes the alternate decision.
             - text: |
-              Timeouts
-              ulwrap: true
-              rules:
-                - text: |
-                    Each team is allowed two (2) timeouts per match
-                - text: |
-                    Timeouts may not be used consecutively; at least one round must be played between timeouts.
-                - text: |
-                    Each timeout is a maximum of 8 minutes from the end of the previous round.
-                - text: |
-                    Teams may end their time out before 8 minutes have elapsed only if both teams are present and prepared to play.
-                - text: |
-                    Following a timeout, any team unprepared to play at the end of 8 minutes will be penalized <a href="#excessive_delay" class="text-ivrl-light-blue">Excessive Delay</a>
-                - highlight: new
-                  text: |
-                    A timeout is not allowed before the first round of the match is played.
-                - highlight: new
-                  text: |
-                    At the end of a timeout, the teams must play with the active players in lobby, or forfeit the match.
+                On MAP 2, the Away team may elect to either choose the map or the side they will play first. The Home team makes the alternate decision.
+            - highlight: new
+              text: |
+                  On MAP 3, the team that that won the most rounds during the first two maps may elect to either choose the map or the side they will 
+                  play first. The other team makes the alternate decision. If the total rounds are tied, the lower ranked team will choose side or map 
+                  based on the standings order at the time of the match.
             - text: |
-              Players
+                Teams may not choose the same map for both rounds.
+        - text: Start Time
+          ulwrap: true
+          rules:
+            - text: |
+                Match is expected to start at the scheduled time
+            - text: |
+                The latest MAP 1 is allowed to start is five minutes after the scheduled time
+            - text: |
+                Unless both teams agree, a team unable to commence MAP 1 within the allowed time will forfeit that map and will
+                be subject to a rule violation. <a href="#excessive_delay" class="text-ivrl-light-blue">Excessive Delay</a>
+            - text: |
+                Where MAP 1 was forfeit, and MAP 2 is delayed more than fifteen minutes, then the match shall be forfeited to
+                the team who was present/ready and an additional rule violation applies  <a href="#no_shows" class="text-ivrl-light-blue">No Shows</a>.
+            - text: |
+                The team hosting MAP 2 must open the lobby for MAP 2 no later than five minutes after the conclusion of MAP 1.
+            - highlight: new
+              text: |
+                The latest MAP 2 or 3 is allowed to start is 10 minutes after the conclusion of MAP 1 or 2 respectively.
+            - highlight: new
+              text: |
+                Any team unable to start MAP 2 or 3 within 10 minutes of the successful conclusion of MAP 1 or 2 must use
+                a Timeout or else forfeit MAP 2 or 3.
+            - text: |
+                After the first round of each map, the lobby host shall start each round no later than 90 seconds after the
+                conclusion of the prior round. Intentional or excessive violation of this rule will be subject to a rule violation.
+                <a href="#excessive_delay" class="text-ivrl-light-blue">Excessive Delay</a>
+            - text: |
+                Teams may not use the Round Reset mechanic, nor any other game mechanic, to stall for additional time prior
+                to the start of a round.  <a href="#excessive_delay" class="text-ivrl-light-blue">Excessive Delay</a>
+        - text: Timeouts
+          ulwrap: true
+          rules:
+            - text: |
+                Each team is allowed two (2) timeouts per match
+            - text: |
+                Timeouts may not be used consecutively; at least one round must be played between timeouts.
+            - text: |
+                Each timeout is a maximum of 8 minutes from the end of the previous round.
+            - text: |
+                Teams may end their time out before 8 minutes have elapsed only if both teams are present and prepared to play.
+            - text: |
+                Following a timeout, any team unprepared to play at the end of 8 minutes will be penalized
+                <a href="#excessive_delay" class="text-ivrl-light-blue">Excessive Delay</a>
+            - highlight: new
+              text: |
+                A timeout is not allowed before the first round of the match is played.
+            - highlight: new
+              text: |
+                At the end of a timeout, the teams must play with the active players in lobby, or forfeit the match.
+        - text: Players
+          ulwrap: true
+          rules:
+            - text: |
+                Only rostered players or registered reservists may play in IVRL matches.
+            - text: |
+                Each team must field at least four players for the entire match.
+            - text: |
+                For the entire match, at least three players on each team must be on the team’s roster.
+            - text: |
+                Before a reservist plays a round, the team using the reservist must notify the opposing team that they intend to use a reservist either:
+              ulwrap: true
+              rules:
+                  - text: |
+                      in Discord before the match, or
+                  - text: |
+                      in the tent such that the notice is captured on POV footage.
+            - text: |
+                A team may not field more than one reservist at a time during a match.
+            - text: |
+                A team may not start a map using a reservist if doing so would result in having more players than the opposing team.
               ulwrap: true
               rules:
                 - text: |
-                    Only rostered players or registered reservists may play in IVRL matches.
-                - text: |
-                    Each team must field at least four players for the entire match.
-                - text: |
-                    For the entire match, at least three players on each team must be on the team’s roster.
-                - text: |
-                    Before a reservist plays a round, the team using the reservist must notify the opposing team that they intend to use a reservist either:
-                    ulwrap: true
-                    rules:
+                    If an opposing player disconnects during a map, teams are not required to drop a reservist to comply with this rule until the map is over.
+            - text: |
+                    Any team fielding an invalid player will be treated as a rule violation <a href="#invalid_player" class="text-ivrl-light-blue">Invalid Player</a>.
+        - text: |
+            Casted matches - Spoilers
+            ulwrap: true
+            rules:
+            - text: |
+                Players may not participate in the stream chat of casts of matches in which they have played unless and until the final
+                round of the match ends on the cast.
+            - highlight: new
+              text: |
+                If a casted team's player is subbed out, they can participate in the stream chat of casts AFTER the rounds they played in are finished.
+            - text: |
+                Participating in the stream chat of a cast of a player’s own match before the cast shows the end of the final
+                round will incur penalty points <a href="#participating_in_cast_of_your_match" class="text-ivrl-light-blue">Participating in cast of your match</a>.
+    - index: 2.4
+      title: After the Match
+      rules:
+        - text: |
+            Either team in a match should submit scores as soon as practicable post game.
+        - text: |
+            The submitting team's score must be:
+          ulwrap: true
+          rules:
+              - text: |
+                  confirmed by their opponent, locking in the result or
+              - text: |
+                  amended for errors by their match opponent and confirmed by the original submitter.
+        - text: |
+            Scores shall be submitted no later than 24 hours after match is completed.
+        - text: |
+            Failure to confirm/amend by the second team after 24 hours will result in automatic acceptance of submitted score.
+        - text: |
+            Failure by both teams to submit the results of a scheduled match is considered a team rule violation
+            <a href="#late_scores" class="text-ivrl-light-blue">Late Scores</a>.
+        - text: |
+            All disputes concerning scoring must be made via Discord ticket.
+  - index: 3
+    title: Challenges
+    rules:
+    - index: 3.1
+      title: Regional Challenges
+      rules:
+        - highlight: new
+          text: |
+            During the first 2 sets of the season, active teams are awarded one challenge within their region. This will allow for them to play one 
+            additional match during the week to atempt to gain additional SRS. Challenge matches are not allowed during the last set of the season. 
+            Inactive teams do not have the ability to challenge.
+        - highlight: new
+          text: |
+            If a team is given a bye-week during the season due to an un-even number of teams, they will be provided an extra challenge match in 
+            order to provide the same potential for SRS gains.
+        - highlight: new
+          text: |
+            Teams can request challenges on the IVRL website. Challenge requests can be freely rejected by the other team. It is not a requirement to accept.
+        - highlight: new
+          text: |
+            The challenge match must be scheduled at the time it is requested. Teams are allowed 7 days from the time the challenge is requested to schedule the match.
+        - highlight: new
+          text: |
+            A challenge match may be canceled via the website by either team without penalty up until 24 hours before the match. After that point, the match must be
+             played or forfeited.
+        - highlight: new
+          text: Standard match format and rules apply to challenge matches.
+    - index: 3.2
+      title: Cross-Region Challenges
+      rules:
+        - highlight: new
+          text: |
+            During the first two sets, teams are awarded 3 challenges that can be used outside of their standard region. This will allow cross-regional 
+            matches during the season for a slight benefit to the teams. Challenges are not allowed during the last set of the season. Inactive teams 
+            do not have the ability to challenge across regions.
+        - highlight: new
+          text: |
+            SRS will trade between the teams of cross-regional challenges but with a reduced scale compared to standard regional matchups. The same SRS 
+            formula will be utilized for the match, but the SRS gain to the winning team will be divided by 3 and the SRS of the losing team will be 
+            divided by 4. Over the course of the 3 cross-regional challenges, a team can gain up to one standard match SRS or lose up to 3/4 of one 
+            standard match SRS. The offset in risk is an incentive to challenge across regions.
+        - highlight: new
+          text: |
+            Teams that complete 3 cross-regional challenges will receive an extra accolade (discord role, website icon, etc.) for their Global focus and accomplishments.
+        - highlight: new
+          text: |
+            Teams can request cross-region challenges on the IVRL website. Challenge requests can be freely rejected by the other team. It is not a requirement to accept.
+        - highlight: new
+          text: |
+            The challenge match must be scheduled at the time it is requested. Teams must play the cross-region challenge match by the end of the 2nd set.
+        - highlight: new
+          text: |
+            A challenge match may be canceled via the website by either team without penalty up until 24 hours before the match. After that point, the match must be played 
+            or forfeited.
+        - highlight: new
+          text: Standard match format and rules apply to challenge matches.
+  - index: 4
+    title: Gameplay Restrictions
+    rules:
+    - index: 4.1
+      title: Equipment
+      rules:
+      - text: |
+          Due to game balance and/or the potential for some equipment to be exploited, the following equipment rules shall be followed:
+        rules:
+        - text: RPG - Permitted on "Large Maps" only.
+        - text: |
+            Shields - Allowed, but due to a bug that makes it possible for the player holding the shield to shoot through parts of the shield, 
+            shield users may not shoot while either holding the shield or using it for cover while it is standing. In other words, a player 
+            must fully release the shield and it must be either lying flat on the ground or holstered on the player’s back before firing. Other 
+            players may, however, shoot freely while following the shield user for protection.
+        - text: Volk Drones - Banned
+        - text: Marsoc Drones - allowed on "Large Maps" only
+        - highlight: new
+          text: M203 Smoke/Frag - unrestricted use on all maps    
+        - text: Red and Green Smokes - Banned from use on all maps. Only WHITE smokes are allowed.        
+      - text: Use of prohibited equipment is a rule violation <a href="#grade_3_cheat" class="text-ivrl-light-blue">Grade 3 Cheating</a>.
+    - index: 4.2
+      title: Locations
+      rules:
+      - text: |
+          Some locations may be accessed or used unintentionally in a way that confers an unintended competitive advantage. Accessing these spots is prohibited.
+        rules:
+        - text: |
+            IVRL shall identify these locations and publish them to the IVRL player community via 
+            <a target="_blank" class="text-ivrl-light-blue" href="https://docs.google.com/spreadsheets/d/1SY-wJfccXy9X8jj22B8LcrGIZw0uYCZreznnHGw9V88">
+        - text: |
+            Players shall be presumed to know about published banned locations, and any use of such locations constitutes an intentional use subject to penalties.
+      - text: The general guidance is that no place should be accessed which requires real world movement (moving in your playspace).
+      - text: |
+          Excessively unrealistic locations such as invisible ledges along sides of buildings are also prohibited. These spots will be added into the map overheads 
+          when identified.
+        rules:
+        - highlight: new
+          text: |
+            To assist in determining which ledges are large enough to be considered valid, ie. realistic to stand on, the player's knife length in game can be 
+            utilized to judge the size of the ledge. The ledge must be larger than the length of the knife.
+        - highlight: new   
+          text: Ledges that measure shorter than the length of the knife are considered a banned location.      
+      - text: | 
+          Any intentional use of locations identified in this section will be treated as a player rule violation along with potential team sanctions <a href="#grade_3_cheat" class="text-ivrl-light-blue">Grade 3 Cheating</a>.
+  - index: 5
+    title: Recording Mandate
+    rules:
+      - text: |
+          All players are required to record video and audio, including their own microphone audio, of their point of view (”POV”) during matches.
+      - text: Recordings should start before entering the lobby for MAP 1.
+      - text: This recording must be available upon IVRL Officials’ request for up to 2 weeks.
+      - highlight: new
+        text: Upon request, players have 48 hours to provide the footage to officials.  
+      - text: |
+          View the recording mandate page for more information: 
+          <a href="/info/recording-mandate" target="_blank" class="text-ivrl-light-blue">Recording Mandate</a>
+      - highlight: new
+        text: |
+          IVRL Officials reserve the right to impose an Escalated Recording Mandate upon any player or team. View the Escalated Recording Mandate page for more information:
+          <a href="/info/escalated-recording-mandate" target="_blank" class="text-ivrl-light-blue">Escalated Recording Mandate</a>
+      - text: |
+          Failure to comply with a requested recording will result in penalties.
+          <a href="#failure_to_provide_recording" class="text-ivrl-light-blue">Failure to provide recording</a>
+  - index: 6
+    title: Teams and Players
+    rules:
+    - index: 6.1
+      title: Team Administration
+      rules:
+        - text: The maximum number of players on a team roster is 8.
+        - text: This roster shall not change during a match
+        - text: All players need to be the age of thirteen (13) or older.
+        - text: Team captains must be the age of eighteen (18) or older.
+        - text: Teams may not add players to their rosters during the final three weeks of a season.
+        - hightlight: new
+          text: |
+            Players who leave a roster enter a two-week "cooldown" period during which they may not play in any IVRL matches, neither as a reservist nor a rostered 
+            player on another team.
+          ulwrap: true
+          rules:
+            - highlight: new
+              text: If the player rejoins the same team within 24 hours then the cooldown can be waived by in IVRL Official.
+            - highlight: new
+              text: A player leaving a team that has been inactive for more than 2 weeks can submit a request for waiving the cooldown.
+            - highlight: new
+              text: Team disbandment is no longer considered valid reasons for waiving a cooldown.
+        - text: Players who leave a roster during the final three weeks of a season may not play for the remainder of the season.
+        - text: |
+            Please note that some countries may have additional restrictions on age or participation, it is expected that all IVRL members are to comply with 
+            the regulations specific to their country on these matters.
+        - text: Non-compliance with age restrictions is a rule violation <a href="#underage_players" class="text-ivrl-light-blue">Underage Players</a>
+        - highlight: new
+          text: Disbandments
+          ulwrap: true
+          rules:
+            - highlight: new
+              text: If a team's roster is reduced to 2 or less members, it is considered disbanded due to their ineligibility to continue playing.
+            - highlight: new
+              text: Upon Disbandment, teams will have 1 week to reform with a minimum of 4 of the same rostered players to prevent an SRS reset.
+            - highlight: new
+              text: After 1 week of a team's disbandment, the teams SRS will be reset.
+    - index: 6.2
+      title: Team/Player Names
+      rules:
+        - text: |
+            Players and teams must play using the player and team names registered on the IVRL website
+          ulwrap: true  
+          rules:
+            - text: |
+                Players with a secondary headset may register and play under an alternate name provided it is closely related to the players’ primary name.
+            - text: |
+                Players shall provide IVRL the Player ID(s) associated with the player name(s) they have registered.
+        - text: |
+            Use of any name which is offensive, vulgar, obscene, racist, inflammatory, sexist, 
+            or defamatory is prohibited. This includes names which break the preceding guidelines but use alternative spellings/numbers,
+        - text: |
+            Player names, player logos, team names, and team logos are forbidden if they:
+          ulwrap: true
+          rules:
+            - text: Are protected by copyrights/royalties/third-party rights and the user has no written permission;
+            - text: Resemble or are identical to a brand/trademark no matter whether it's registered or not;
+            - text: Resemble or are identical to a real person other than themselves;
+            - text: Resemble or are identical to a IVRL representative;
+            - text: Are deemed too hard to read, distinguish, interpret or have multiple unnecessary characters; or
+            - text: Violate the <a href="#IVRLCoC" class="text-ivrl-light-blue">IVRL Code of Conduct</a>.
+        - text: |
+            Each team’s and each player’s name must be sufficiently unique. Minor variation from an existing team or player name 
+            (such as replacing a letter for number) is not considered sufficiently unique.
+        - text: |
+            Use of text modifiers for player names is prohibited.
+        - text: |
+            Players are not to falsely represent a team for which they are not a rostered member.
+        - text: |
+            Breach of the forgoing rules is a rule violation
+            <a href="#team_or_player_name_abuse" class="text-ivrl-light-blue">Team/Player name abuse</a>.
+    - index: 6.3
+      title: Player Accounts
+      rules:
+        - text: Players must be registered with IVRL, either on a team or as a reservist, to participate in IVRL-sanctioned matches.
+        - text: |
+            Players shall only have one account registered with IVRL. With notice to IVRL and with IVRL’s discretion, 
+            a player may register a second account if, for example, that player is unable to log into their account.
+        - text: |
+            Playing or registering with multiple accounts without authorization is a rule violation or causing a player to 
+            play or register an alternate account without authorization, is a rule violation 
+            <a href="#alt_accounts" class="text-ivrl-light-blue">Alt Accounts</a>.
+    - index: 6.4
+      title: Reservists
+      rules:
+        - highlight: new
+          text: Teams may not use reservists more than seven times in a season.
+        - text: Teams may not use the same reservist more than three times.
+  - index: 7
+    title: Broadcasting
+    rules:
+      - text: IVRL Broadcasters (Casters) are authorized to spectate/cast any match.
+      - text: Teams must comply with their request to cast the game and enable spectating upon lobby creation.
+      - highlight: new
+        text: Both teams are responsible for making sure that casters have the lobby and ban information prior to starting the match.
+      - text: |
+          Preventing IVRL access to a match for casting purposes is a rule violation 
+          <a href="#ivrl_cast_obstruction" class="text-ivrl-light-blue">IVRL Cast Obstruction</a>.
+      - text: Community Casters may cast an IVRL match, given that both teams agree to that Caster casting their match.
+      - text: Community Casters must follow the general casting guidelines that will be shared.
+      - text: |
+          Community casting of a match without explicit permission from both teams is a rule violation 
+          <a href="#unauthorized_casting" class="text-ivrl-light-blue">Unauthorized Casting</a>
+      - text: |
+          IVRL Broadcasters and Community Casters must abide by the rules and 
+          <a href="#IVRLCoC" class="text-ivrl-light-blue">IVRL Code of Conduct</a>
+  - index: 8
+    title: Cheats, Exploits, and Violations
+    rules:
+      - text: |
+          IVRL strictly forbids cheaters in our community. Any evidence cheating or violations by IVRL players within IVRL matches will 
+          be met with disciplinary investigations and sanctions where appropriate. Evidince of significant exploitation outside of league 
+          matches will not be taken lightly and can be considered for penalties. Violations in game are classified into 3 categories 
+          depending on severity. Penalty points for such violations will be issued according to the 
+          <a href="#points-table" target="_blank" class="text-ivrl-light-blue">Rule Violations &amp; Penalty Points Schedule</a>.
+      - text: |
+          Evidence of training the use of exploits or the development of exploits outside of league matches may also be grounds 
+          for penalties based on their severity.
+      - index: 8.1
+        title: Grade 1 Violations
+        rules:
+          - text: Direct modification of the game or its code that affects gameplay in any form.
+          - text: The use of any unapproved third party apps which modify the game in any form.
+          - text: Deliberately exploiting the game in any way which has an extreme impact on competitive fairness.
+            ulwrap: true
+            rules:
+              - highlight: new
+                text: |
+                  Utilizing playspace movement to gain speed advantages. ie. leaning into corners, or repeated side stepping to 
+                  bypass the speed limitations.
+          - text: |
+              Anything which may be considered Hacking, DDOS or any actions directed toward IVRL players aimed at preventing 
+              their participation in a match.
+      - index: 8.2
+        title: Grade 2 Violations
+        rules:
+          - text: Going outside of map boundaries;
+          - text: Body glitching (body not following player's viewpoint);
+          - text: Using any technique which might allow a player to see through solid walls or floors;
+          - text: |
+              While downed, using in-playspace movement (e.g., physically walking) in combination with stick-based movements 
+              (e.g., snap turns) to change your in-game position.
+          - text: |
+              Third Party VR or Desktop overlays/applications that affect gameplay mechanics or aesthetics (Personal system 
+              monitoring/diagnostic overlays are allowed, provided they do not affect previously stated mechanics or aesthetics)
+          - text: Using gamma modifications to change the visual aesthetics of the game
+          - text: Any use of the spectate function by participants during official matches, either directly or indirectly.
+          - text: |
+              Any use of external media streaming (ie., "stream sniping")to ascertain the circumstances, content or any facts 
+              arising from the match (excluding for the sole purpose of recording ones gameplay) while the match is being 
+              played (excluding for the sole purpose of recording one’s gameplay to be reviewed after the match).
+          - text: Any muting of a players mic in game, or the use of a "Push To Talk" system
+          - text: Any manipulation of in-game height to gain a competitive advantage
+          - text: Interfering with packet data being transmitted to the game server
+          - text: |
+              While dead in the tent, passing the Host, or causing the Host to be passed, to a living teammate for the 
+              purpose of giving that teammate an advantage.
+      - index: 8.3
+        title: Grade 3 Violations
+        rules:
+          - text: Violations
+            ulwrap: true
+            rules:
+              - text: |
+                  Clipping where a player recklessly or intentionally hides more than roughly half of their avatar body 
+                  inside a solid object in game
+              - text: Kicking a teammate from the game with the aim of obstructing gameplay
+              - text: Self-downing or have a teammate down oneself, intentionally to gain an advantage
+              - text: |
+                  Intentional self-killing or teamkilling (excluding disconnections or bugs) to mitigate risk or gain an 
+                  advantage
+              - text: Deploying prohibited utility or using equipment in a manner prohibited by Rule 3.1
+              - text: |
+                  Intentionally accessing locations in game via playspace manipulation or any other method which would 
+                  otherwise be inaccessible via standard player movement inputs (e.g. crawling in the playspace to get 
+                  under a vehicle is not allowed)
+              - text: Accessing proscribed locations contrary to Gameplay Restrictions
+              - text: Using a drone or C4 that is clipped through or is otherwise hidden inside an object on the map
+              - highlight: new
+                text: |
+                  Shooting an opposing player whose body is clipping through a floor/ceiling that is otherwise impenetrable. 
+                  For example, shooting the leg of a player model that appears to be clipping through the ceiling of Middle 
+                  House on Suburbia would be Grade 3 cheating. Shooing through the floor of a penetrable object (i.e. red 
+                  ramp on Quarantine, scaffold on bazaar) is acceptable.
+              - text: |
+                  Any use of external audio or text communication systems (except to declare a bug e.g. in-game voice not 
+                  working, game crash to Windows, etc).
+              - highlight: new
+                text: The use of the Snap Turn feature set greater than 30 degrees.
+              - highlight: new
+                text: |
+                  Intentionally rehosting a map several times to get a specific objective at the start of a map. Both rounds 
+                  for that objective will be overturned if violated. Map rehost should only occur if lobby is bugged or not 
+                  setup correctly.
+          - highlight: new
+            text: Grade 3 Sentencing guidelines - not applicable to all grade 3 violations
+            ulwrap: true
+            rules:
+              - highlight: new
+                text: |
+                  If violation occurs outside of the engagement zone and lacking the intent to impact round then there 
+                  will be no penalty or a warning issued.
+                ulwrap: true
+                rules:
+                  - highlight: new
+                    text: |
+                      Engagement Zone: an area near an opponent or where a general sightline can be obtained between the players.
+              - highlight: new
+                text: |
+                  If the violation occurs in the engagement zone with indirect impact on enemy player or round then 2 player 
+                  points with a round overturn if applicable.
+                ulwrap: true
+                rules:
+                  - highlight: new
+                    text: |
+                      Indirect Impact: Causing enemy players to alter their movement or positioning in a way that could have 
+                      negative impact on their gameplay. Including but not limited to: Being suppressed, changing line of sight 
+                      (with the line of sight change being potentially impactful), causing use of utility
+              - highlight: new
+                text: |
+                  If the violation occurs in the engagement zone with direct impact on enemy player or round, then 3 player points 
+                  with a round overturn if applicable.
+                ulwrap: true
+                rules:
+                  - highlight: new
+                    text: "Direct Impact: Kill / wound or distraction with significant tangible impact on outcome"
+              - highlight: new
+                text: |
+                  The offended team may choose to waive the review of a Grade 3 Violation, but it is considered all or nothing.
+                ulwrap: true
+                rules:
+                  - highlight: new
+                    text: |
+                      A team my not take a round overturn for example and waive points applied for the violation. If the team 
+                      considers it impactful enough to want a round overturned, the full penalty will be applied.
+      - index: 8.4
+        title: Exceptions for Disabilities
+        rules:
+          - text: Playspace movers may be used without penalty when each of the following conditions are met.
+            ulwrap: true
+            rules:
+              - text: |
+                  The player shall submit a ticket formally disclosing to the league that the player has a medical condition which 
+                  restricts the player’s mobility.
+              - text: |
+                  The player shall physically play in a seated position (i.e., from a chair, sofa, or on the ground) for the duration 
+                  of any league play using the playspace mover.            
+              - text: |
+                  The player may only use controller bindings which require the player to manually drag the playspace relative to their 
+                  seated position (e.g., "Right Hand Space Drag" in OVR Advanced Settings).
+              - text: |
+                  The player shall not use any third party bindings which snap or teleport a player within the playspace.
+              - text: |
+                  The player shall make reasonable efforts to ensure their in-game height reflects their actual standing height.
+              - text: |
+                  IVRL Officials shall maintain and publish to CapCo a list of all players for whom active and archived exceptions are 
+                  granted.
+          - text: |
+              This exception is granted to maintain competitive integrity among players with medical restrictions, 
+              and may be modified at the discretion of IVRL Officials. Players are responsible for promptly informing 
+              the league when the medical restriction no longer exists or if the above conditions cannot be met. Abuse 
+              of this exception violates Rule 7.2.4 and may incur additional penalties.
+  - index: 9
+    title: Network Connectivity
+    rules:
+    - index: 9.1
+      title: Network Manipulation or Degradation
+      rules:
+        - text: |
+            Network degradation, whether intentional or not, affects fair play conditions for everyone. Players shall 
+            make all reasonable efforts to achieve the best possible network connections for competitive play. Players 
+            shall not manipulate or degrade their internet connections for competitive advantage.
+        - text: "The following behaviors are expressly prohibited, but this list is not exhaustive:"
+          ulwrap: true
+          rules:
+            - text: Using a VPN unless expressly permitted by an IVRL Official;
+            - highlight: new
+              text: |
+                Using a mobile-based (hotspot/gateway) or satellite-based hardware to connect to the internet; Starlink 
+                internet is an exception to this rule as it operates differently than traditional satellite internet.
+            - text: Running software or modifying router settings to degrade network performance;
+            - text: Using distance or physical obstacles to deliberately impede a Wi-Fi signal.
+        - text: Network issues affecting matches
+          ulwrap: true
+          rules:
+            - text: |
+                When a player is forcibly kicked or dropped by the lobby for network degradation more than three (3) times 
+                during match, that player must be removed from that game upon their opponent’s request.
+            - text: |
+                If multiple players are forcibly kicked or dropped by the lobby for network degradation, the lobby shall be 
+                re-hosted by a new player with a more stable connection after three drops.
+        - text: |
+            IVRL Officials may, in their discretion, permanently prevent players from creating or hosting lobbies due to a 
+            history of network connectivity issues as demonstrated by Rule 8.2.
+    - index: 9.2
+      title: Reporting
+      rules:
+        - text: |
+            Players are encouraged to report any suspected incidents of network degradation, whether intentional or not, by 
+            submitting POV or caster VOD video of the suspected incident.
+        - text: "Some examples of reportable incidents include, but are not limited to:"
+          ulwrap: true
+          rules:
+            - text: |
+                Network Teleporting or Smoothing: an opponent observed to teleport or smooth rapidly more than roughly 3 feet 
+                (1 meter) three or more times in a match which may indicate packet loss or other network connectivity issues. 
+                Teleporting back to spawn or other locations of the map will generally not be considered network related
+            - text: |
+                Extended Player Trades: a player being killed by an opponent more than 1,000ms after their POV shows that they 
+                killed the same opponent.
+            - text: |
+                Bullet Sponge: POV footage (caster VOD footage is not reliable for this purpose) showing that a player shot an 
+                opposing player enough times to kill them under normal conditions but did not kill them. Shooting a player more 
+                than six times with a rifle, eight times with a pistol, or in the head three or more times without killing them 
+                is presumptively a network degradation issue
+        - highlight: new    
+          text: |
+            A player who is validly reported for a network degradation issue or who otherwise shows an overall significant trend 
+            of poor network health, may be placed on an Escalated Recording Mandate to monitor network connectivity at the 
+            discretion of the IVRL Officials.
+        - text: |
+            IVRL Officials may, in their discretion, overturn round or match results if it is determined that the network health 
+            of a player had a direct effect on the outcome of a match.
+  - index: 10
+    title: Disciplinary
+    rules:
+      - text: |
+          If a player or team is found by a preponderance of the evidence to have disregarded or violated one or more of the rules of 
+          the league, or the Code of Conduct, IVRL will administer penalty points or other sanctions depending on the severity of the 
+          offense.
+      - text: |
+          Disciplinary decisions are assigned by IVRL Officials and published in the IVRL Onward Discord.
+      - text: |
+          The disciplinary procedures in these rules serve only as guidance. In extreme cases, League Officials may exercise discretion 
+          to disqualify a player or team from participating in IVRL events or forums, and/or assign other punishments as appropriate.
+        rules:
+        - index: 10.1
+          title: Disciplinary Procedure
+          rules:
+            - text: |
+                Maintaining healthy community bonds and faith in the league requires a commitment to high standards of player conduct, and 
+                fairness when players fall short of the league’s expectations. These disciplinary procedures enable IVRL Officials to maintain 
+                high standards while providing players a transparent, fair, and consistent forum to resolve league-related disputes.
+            - text: |
+                  Where complaints relate to sensitive matters, the IVRL team may redact names or other information to maintain the real world 
+                  privacy and safety of its members. Where the IVRL redacts such information, it will provide adequate reasons for doing so.
+              rules:
+                - index: 10.1.1
+                  title: Initiation
+                  rules:
+                    - text: |
+                        Details of the alleged rule violation must be submitted via ticket. This ticket should include the following key information:
+                      rules:
+                        - text: Time and date of incident(s)
+                        - text: Subject player(s)
+                        - text: The relevant rule(s)
+                        - text: A statement explaining the alleged violation; and
+                        - text: Attachments containing any supporting evidence.
+                - index: 10.1.2
+                  title: Assessment
+                  rules:
+                    - text: |
+                        After reviewing the information and at their discretion, Referees will notify the relevant IVRL Officials according to the 
+                        level of violation. For example:    
+                      rules:
+                        - text: | 
+                            Minor code of conduct violations, utility infractions, or scheduling disputes require no escalation and are within the 
+                            Referee’s discretion to resolve.
                         - text: |
-                            in Discord before the match, or
-                        - text: |
-                            in the tent such that the notice is captured on POV footage.
+                            Serious code of conduct violations or cheating should be escalated to Strategic Directors or the Commissioner.
+                    - text: |
+                        The appropriate IVRL Officials will make an initial determination as to whether there is grounds for investigation. 
+                        If they reasonably suspect that a violation has occurred, they will investigate.
+                - index: 10.1.3
+                  title: Investigation
+                  rules:
+                    - text: IVRL Officials will collect evidence and statements from relevant parties and compile this information in a ticket.
+                    - text: |
+                        Subject player(s) will be added to the ticket and advised of the nature of the complaint against them. They must be 
+                        provided with any and all evidence used in consideration of the matter.
+                    - text: |
+                        IVRL players are obligated to cooperate with investigations by IVRL officials. Obstructing or frustrating the process 
+                        may lead to an adverse decision without input from the subject player(s).
+                    - text: Subject players are permitted to have their captain or co-captain included in the ticket to support or represent them.
+                    - text: The subject player(s) should be given a reasonable opportunity to state their case before any decision is made.
+                    - text: Once evidence and statements from all sides are obtained, the IVRL officials will conclude discussions and deliberate.
+                    - text: The IVRL Officials who conducted the investigation shall inform the subject player(s) of the league’s decision promptly.
+                - index: 10.1.4
+                  title: Outcome
+                  rules:
+                    - text: |
+                        All decisions finding that a player has broken the rules must be posted by IVRL in a channel visible to all members as well as 
+                        disciplinary log spreadsheet. Decisions that conclude no rule was broken may be posted where, in the league’s discretion, the 
+                        decision is sufficiently important.
+                      rules:
+                        - text: "Tickets shall contain:"
+                          ulwrap: true
+                          rules:
+                            - text: "Subject: [Outcome] (Breach/No Breach) - [Rule] - [Subject player(s)]"
+                            - text: Summary of the Issue
+                            - text: Facts - evidence collected and statements
+                            - text: Decision - rationale of the decision maker
+                            - text: Outcome - 1 line as to whether the rule was broken
+                            - text: Sanction - Penalty points issued and consequences
+        - index: 10.2
+          title: Prior E-Sports Sanctions
+          rules:
+            - text: |
+                IVRL is a community of passionate gamers who care about competitive integrity. To protect this, the league require all prospective 
+                IVRL players to disclose prior e-sports bans, VAC bans or any relevant information concerning adverse findings related to competitive 
+                video gaming against them in the past.
+            - text: Aside from VAC bans, this information is not disclosed outside of IVRL officials.
+            - text: |
+                Occasionally, player applications reviewed by the IVRL officials may need to be carefully considered if they indicate pre-existing 
+                e-sports sanctions, hacking related bans or other significant adverse findings.
+              ulwrap: true
+              rules:
                 - text: |
-                    A team may not field more than one reservist at a time during a match.
+                    Where IVRL Officials become aware of a player’s new or previously undisclosed gaming sanction(s), they shall take all reasonable 
+                    steps to investigate and collect information concerning the sanctions.
                 - text: |
-                    A team may not start a map using a reservist if doing so would result in having more players than the opposing team.
+                    IVRL Officials will obtain a statement from the subject player concerning the sanctions and explain any potential impact on the 
+                    player’s eligibility to participate in IVRL.
+                - text: |
+                    Where IVRL determines that the subject player’s continued participation in IVRL may affect the broader IVRL community, IVRL Officials 
+                    shall escalate player applications to the Player Advisory Committee ("PAC") for their consideration.
+                - text: |
+                    Upon receipt of the Escalated Player Application ("EPA"), the PAC shall deliberate on the evidence provided by IVRL and the subject 
+                    player’s statement.
+            - text: Any player who discloses or is found to have any VAC ban newer than 500 days old will not be allowed to participate in IVRL.
+            - text: |
+                Any player who discloses or is found to have VAC bans older than 500 days but less than 1,800 days shall be under mandatory Escalated 
+                Recording Mandate. This stream order has higher requirements on what shall be recorded and requires that all recorded matches are 
+                submitted (rather than submission upon request).
+            - text: |
+                All VAC bans a player has accrued are to be disclosed on registration. Failure to disclose any VAC ban may result in additional restrictions. 
+                For avoidance of doubt, this includes any ban older than 1,800 days as well as any bans on alternate accounts.
+              ulwrap: true
+              rules:
+                - text: |
+                    Failure to disclose a VAC ban which is or was less than 500 days old at any point when registered will result in the counter 
+                    being reset to zero (500 day ban)
+                - text: Failure to disclose a VAC ban which is or was between 500 and 1,800 days old at any point when registered will result in penalty points
+                - text: Failure to disclose a VAC ban older than 1,800 days will result in penalty points
+            - text: |
+                Players must disclose if they receive a VAC ban after registering for IVRL within 48 hours of receiving the ban, or before any match play, 
+                whichever is sooner. Failure to disclose a VAC ban received after registering for IVRL will result in progressively increasing penalty points.
+            - text: The outcome shall be delivered in a private ticket with the subject player(s).
+            - text: The outcome shall be delivered in a private ticket with the subject player.
+            - text: "There may be 3 potential outcomes:"
+              ulwrap: true
+              rules:
+                - text: Approval of the application
+                - text: Qualified approval with conditions
+                - text: Denial of the application
+        - index: 10.3
+          title: Penalty Point System
+          rules:
+            - text: | 
+                Player penalty points are applied to each individual player based on infractions listed below. These points transfer with the player between \
+                teams and will follow the expiration period outlined in this section.
+            - text: |
+                Team points are applied to the team and not the individual players on the team. These points will follow the expiration period outlined in this 
+                section.
+            - text: |
+                Penalty points expire after an assigned period of time. All expiration periods are based upon the latest infraction date. The tables below are 
+                guidance, but IVRL Officials may assess penalties on a case-by-case basis.
+            - text: |
+                <div id="points-table" class="flex items-center justify-center p-3">
+                        <div class="container">
+                          <table class="text-xs md:text-md lg:text-lg md:inline-table w-full flex flex-row flex-no-wrap md:rounded-md rounded-lg overflow-hidden my-5 border-gray-800">
+                            <thead class="text-white h-18 uppercase collapsable-head">
+                              <tr class="bg-gray-800 flex flex-col flex-no wrap md:table-row rounded-l-md md:rounded-none mb-2 md:mb-0">
+                                <th scope="col" class="p-3 text-left h-14">Infraction</th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Immediate Sanction
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Player Points
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Team Points
+                                </th>
+                              </tr>
+                              <tr class="bg-gray-800 flex flex-col flex-no wrap md:table-row rounded-l-md md:rounded-none mb-2 md:mb-0">
+                                <th scope="col" class="p-3 text-left h-14">Infraction</th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Immediate Sanction
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Player Points
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Team Points
+                                </th>
+                              </tr>
+                              <tr class="bg-gray-800 flex flex-col flex-no wrap md:table-row rounded-l-md md:rounded-none mb-2 md:mb-0">
+                                <th scope="col" class="p-3 text-left h-14">Infraction</th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Immediate Sanction
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Player Points
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Team Points
+                                </th>
+                              </tr>
+                              <tr class="bg-gray-800 flex flex-col flex-no wrap md:table-row rounded-l-md md:rounded-none mb-2 md:mb-0">
+                                <th scope="col" class="p-3 text-left h-14">Infraction</th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Immediate Sanction
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Player Points
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Team Points
+                                </th>
+                              </tr>
+                              <tr class="bg-gray-800 flex flex-col flex-no wrap md:table-row rounded-l-md md:rounded-none mb-2 md:mb-0">
+                                <th scope="col" class="p-3 text-left h-14">Infraction</th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Immediate Sanction
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Player Points
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Team Points
+                                </th>
+                              </tr>
+                              <tr class="bg-gray-800 flex flex-col flex-no wrap md:table-row rounded-l-md md:rounded-none mb-2 md:mb-0">
+                                <th scope="col" class="p-3 text-left h-14">Infraction</th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Immediate Sanction
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Player Points
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Team Points
+                                </th>
+                              </tr>
+                              <tr class="bg-gray-800 flex flex-col flex-no wrap md:table-row rounded-l-md md:rounded-none mb-2 md:mb-0">
+                                <th scope="col" class="p-3 text-left h-14">Infraction</th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Immediate Sanction
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Player Points
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Team Points
+                                </th>
+                              </tr>
+                              <tr class="bg-gray-800 flex flex-col flex-no wrap md:table-row rounded-l-md md:rounded-none mb-2 md:mb-0">
+                                <th scope="col" class="p-3 text-left h-14">Infraction</th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Immediate Sanction
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Player Points
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Team Points
+                                </th>
+                              </tr>
+                              <tr class="bg-gray-800 flex flex-col flex-no wrap md:table-row rounded-l-md md:rounded-none mb-2 md:mb-0">
+                                <th scope="col" class="p-3 text-left h-14">Infraction</th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Immediate Sanction
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Player Points
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Team Points
+                                </th>
+                              </tr>
+                              <tr class="bg-gray-800 flex flex-col flex-no wrap md:table-row rounded-l-md md:rounded-none mb-2 md:mb-0">
+                                <th scope="col" class="p-3 text-left h-14">Infraction</th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Immediate Sanction
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Player Points
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Team Points
+                                </th>
+                              </tr>
+                              <tr class="bg-gray-800 flex flex-col flex-no wrap md:table-row rounded-l-md md:rounded-none mb-2 md:mb-0">
+                                <th scope="col" class="p-3 text-left h-14">Infraction</th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Immediate Sanction
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Player Points
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Team Points
+                                </th>
+                              </tr>
+                              <tr class="bg-gray-800 flex flex-col flex-no wrap md:table-row rounded-l-md md:rounded-none mb-2 md:mb-0">
+                                <th scope="col" class="p-3 text-left h-14">Infraction</th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Immediate Sanction
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Player Points
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Team Points
+                                </th>
+                              </tr>
+                              <tr class="bg-gray-800 flex flex-col flex-no wrap md:table-row rounded-l-md md:rounded-none mb-2 md:mb-0">
+                                <th scope="col" class="p-3 text-left h-14">Infraction</th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Immediate Sanction
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Player Points
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Team Points
+                                </th>
+                              </tr>
+                              <tr class="bg-gray-800 flex flex-col flex-no wrap md:table-row rounded-l-md md:rounded-none mb-2 md:mb-0">
+                                <th scope="col" class="p-3 text-left h-14">Infraction</th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Immediate Sanction
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Player Points
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Team Points
+                                </th>
+                              </tr>
+                              <tr class="bg-gray-800 flex flex-col flex-no wrap md:table-row rounded-l-md md:rounded-none mb-2 md:mb-0">
+                                <th scope="col" class="p-3 text-left h-14">Infraction</th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Immediate Sanction
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Player Points
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Team Points
+                                </th>
+                              </tr>
+                              <tr class="bg-gray-800 flex flex-col flex-no wrap md:table-row rounded-l-md md:rounded-none mb-2 md:mb-0">
+                                <th scope="col" class="p-3 text-left h-14">Infraction</th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Immediate Sanction
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Player Points
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Team Points
+                                </th>
+                              </tr>
+                              <tr class="bg-gray-800 flex flex-col flex-no wrap md:table-row rounded-l-md md:rounded-none mb-2 md:mb-0">
+                                <th scope="col" class="p-3 text-left h-14">Infraction</th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Immediate Sanction
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Player Points
+                                </th>
+                                <th scope="col" class="p-3 text-left h-14">
+                                  Team Points
+                                </th>
+                              </tr>
+                            </thead>
+                            <tbody class="flex-1 md:flex-none">
+                              <tr class="bg-gray-900 flex flex-col flex-no wrap md:table-row md:shadow-lg mb-2 md:mb-0 border-bottom">
+                                <td class="p-3 h-14">
+                                  <a id="excessive_delay">Excessive Delay</a>
+                                </td>
+                                <td class="p-3 truncate h-14">Map Forfeit</td>
+                                <td class="p-3 truncate h-14"></td>
+                                <td class="p-3 truncate h-14">3</td>
+                              </tr>
+                              <tr class="bg-gray-900 flex flex-col flex-no wrap md:table-row md:shadow-lg mb-2 md:mb-0 border-bottom">
+                                <td class="p-3 h-14"><a id="no_shows">No Shows</a></td>
+                                <td class="p-3 truncate h-14">Match Forfeit</td>
+                                <td class="p-3 truncate h-14">1</td>
+                                <td class="p-3 truncate h-14">4</td>
+                              </tr>
+                              <tr class="bg-gray-900 flex flex-col flex-no wrap md:table-row md:shadow-lg mb-2 md:mb-0 border-bottom">
+                                <td class="p-3 h-14">
+                                  <a id="invalid_player">Invalid Player</a>
+                                </td>
+                                <td class="p-3 truncate h-14">
+                                  Potential Score Adjustment
+                                </td>
+                                <td class="p-3 truncate h-14">2</td>
+                                <td class="p-3 truncate h-14">2</td>
+                              </tr>
+                              <tr class="bg-gray-900 flex flex-col flex-no wrap md:table-row md:shadow-lg mb-2 md:mb-0 border-bottom">
+                                <td class="p-3 h-14">
+                                  <a id="alt_accounts">Alt Accounts</a>
+                                </td>
+                                <td class="p-3 truncate h-14">
+                                  Player 2 month suspension
+                                </td>
+                                <td class="p-3 truncate h-14">5</td>
+                                <td class="p-3 truncate h-14">Variable</td>
+                              </tr>
+                              <tr class="bg-gray-900 flex flex-col flex-no wrap md:table-row md:shadow-lg mb-2 md:mb-0 border-bottom">
+                                <td class="p-3 h-14">
+                                  <a id="grade_1_cheat" class="text-ivrl-light-blue" href="#grade_1_cheat_section">
+                                    Grade 1 Violation
+                                  </a>
+                                </td>
+                                <td class="p-3 truncate h-14">Match overturn</td>
+                                <td class="p-3 truncate h-14">15</td>
+                                <td class="p-3 truncate h-14">Variable</td>
+                              </tr>
+                              <tr class="bg-gray-900 flex flex-col flex-no wrap md:table-row md:shadow-lg mb-2 md:mb-0 border-bottom">
+                                <td class="p-3 h-14">
+                                  <a id="grade_2_cheat" class="text-ivrl-light-blue" href="#grade_2_cheat_section">
+                                    Grade 2 Violation
+                                  </a>
+                                </td>
+                                <td class="p-3 truncate h-14">Map overturn</td>
+                                <td class="p-3 truncate h-14">7</td>
+                                <td class="p-3 truncate h-14">Variable</td>
+                              </tr>
+                              <tr class="bg-gray-900 flex flex-col flex-no wrap md:table-row md:shadow-lg mb-2 md:mb-0 border-bottom">
+                                <td class="p-3 h-14">
+                                  <a id="grade_3_cheat" class="text-ivrl-light-blue" href="#grade_3_cheat_section">
+                                    Grade 3 Violation
+                                  </a>
+                                </td>
+                                <td class="p-3 truncate h-14">Round overturn</td>
+                                <td class="p-3 truncate h-14">3</td>
+                                <td class="p-3 truncate h-14">Variable</td>
+                              </tr>
+                              <tr class="bg-gray-900 flex flex-col flex-no wrap md:table-row md:shadow-lg mb-2 md:mb-0 border-bottom">
+                                <td class="p-3 h-14">
+                                  <a id="late_scores">Late Scores</a>
+                                </td>
+                                <td class="p-3 truncate h-14"></td>
+                                <td class="p-3 truncate h-14"></td>
+                                <td class="p-3 truncate h-14">1</td>
+                              </tr>
+                              <tr class="bg-gray-900 flex flex-col flex-no wrap md:table-row md:shadow-lg mb-2 md:mb-0 border-bottom">
+                                <td class="p-3 h-14">
+                                  <a id="late_scheduling">Late Scheduling</a>
+                                </td>
+                                <td class="p-3 truncate h-14"></td>
+                                <td class="p-3 truncate h-14"></td>
+                                <td class="p-3 truncate h-14">4</td>
+                              </tr>
+                              <tr class="bg-gray-900 flex flex-col flex-no wrap md:table-row md:shadow-lg mb-2 md:mb-0 border-bottom">
+                                <td class="p-3 h-14">
+                                  <a id="unsportsmanlike_behaviour">Unsportsmanlike behaviour</a>
+                                </td>
+                                <td class="p-3 truncate h-14"></td>
+                                <td class="p-3 truncate h-14">3</td>
+                                <td class="p-3 truncate h-14"></td>
+                              </tr>
+                              <tr class="bg-gray-900 flex flex-col flex-no wrap md:table-row md:shadow-lg mb-2 md:mb-0 border-bottom">
+                                <td class="p-3 h-14">
+                                  <a id="team_or_player_name_abuse">Team/Player name abuse</a>
+                                </td>
+                                <td class="p-3 truncate h-14"></td>
+                                <td class="p-3 truncate h-14">3</td>
+                                <td class="p-3 truncate h-14">3</td>
+                              </tr>
+                              <tr class="bg-gray-900 flex flex-col flex-no wrap md:table-row md:shadow-lg mb-2 md:mb-0 border-bottom">
+                                <td class="p-3 h-14">
+                                  <a id="underage_players">Underage Players</a>
+                                </td>
+                                <td class="p-3 truncate h-14">Player ban</td>
+                                <td class="p-3 truncate h-14"></td>
+                                <td class="p-3 truncate h-14">5</td>
+                              </tr>
+                              <tr class="bg-gray-900 flex flex-col flex-no wrap md:table-row md:shadow-lg mb-2 md:mb-0 border-bottom">
+                                <td class="p-3 h-14">
+                                  <a id="ivrl_cast_obstruction">IVRL Cast Obstruction</a>
+                                </td>
+                                <td class="p-3 truncate h-14"></td>
+                                <td class="p-3 truncate h-14"></td>
+                                <td class="p-3 truncate h-14">7</td>
+                              </tr>
+                              <tr class="bg-gray-900 flex flex-col flex-no wrap md:table-row md:shadow-lg mb-2 md:mb-0 border-bottom">
+                                <td class="p-3 h-14">
+                                  <a id="unauthorized_casting">Unauthorised Casting</a>
+                                </td>
+                                <td class="p-3 truncate h-14"></td>
+                                <td class="p-3 truncate h-14"></td>
+                                <td class="p-3 truncate h-14"></td>
+                              </tr>
+                              <tr class="bg-gray-900 flex flex-col flex-no wrap md:table-row md:shadow-lg mb-2 md:mb-0 border-bottom">
+                                <td class="p-3 h-14">
+                                  <a id="discord_infractions">Discord Infractions</a>
+                                </td>
+                                <td class="p-3 truncate h-14"></td>
+                                <td class="p-3 truncate h-14">(See below)</td>
+                                <td class="p-3 truncate h-14"></td>
+                              </tr>
+                              <tr class="bg-gray-900 flex flex-col flex-no wrap md:table-row md:shadow-lg mb-2 md:mb-0 border-bottom">
+                                <td class="p-3 h-14">
+                                  <a id="failure_to_provide_recording">Failure to provide recording</a>
+                                </td>
+                                <td class="p-3 truncate h-14"></td>
+                                <td class="p-3 truncate h-14">(See below)</td>
+                                <td class="p-3 truncate h-14"></td>
+                              </tr>
+                              <tr class="bg-gray-900 flex flex-col flex-no wrap md:table-row md:shadow-lg mb-2 md:mb-0 border-bottom">
+                                <td class="p-3 h-14">
+                                  <a id="participating_in_cast_of_your_match">Participating in cast of your match</a>
+                                </td>
+                                <td class="p-3 truncate h-14"></td>
+                                <td class="p-3 truncate h-14">3</td>
+                                <td class="p-3 truncate h-14"></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+        - index: 10.4
+          title:  Discord and Code of Conduct Penalties
+          rules:
+            - text: |
+                Any spamming, trolling, doxxing, defamation, sexually explicit behavior, public accusations, or other violations of the Code of Conduct by an 
+                IVRL player in any forum is penalized as follows:
+              rules:
+                - text: "First offense: written warning."
+                - text: "Second offense: second written warning, 1 penalty point, and a 24-hour Discord comment ban."
+                - text: "Third offense: third written warning, 2 penalty points, and a 1-week Discord comment ban."
+                - text: "Fourth and further offenses: 3 penalty points, and permanent mute in Discord."
+            - text: |
+                Though penalty points expire, warnings do not. Thus, a player who receives a third warning after the penalty points have expired from her second 
+                warning, will still receive 3 penalty points and a perma-mute at that third warning.
+            - text: |
+                Attempting to evade these penalties through alternate accounts, or other means, invites further penalties, including complete bans from IVRL 
+                participation, at the discretion of IVRL Officials.
+        - index: 10.5
+          title:  Recording Penalties
+          rules:
+            - text: |
+                Players are required to record their POV during IVRL-sanctioned matches in accordance with Section 4. Failures to record are 
+                penalized as follows:
+              rules:
+                - text: 1 penalty point for First infraction
+                - text: 3 penalty points for second infraction
+                - text: 5 penalty points + 1 week player suspension for each additional infraction
+            - highlighted: new
+              text: |
+                Players under an Escalated Recording Mandate who fail to record and/or submit the required POV will receive double the penalties listed.
+        - index: 10.6
+          title:  Player Sanctions
+          rules:
+            - text: |
+                Player punishments will be applied based only on penalty points accrued by individual players. Team points are not relevant.
+              rules:
+                - text: "After obtaining 7 penalty points: 1 week suspension"
+                - text: "After obtaining 10 penalty points: 2 weeks suspension"
+                - text: "After obtaining 12 penalty points: 1 month suspension"
+                - text: "For each additional 3 penalty points: 1 month suspension up to ban"
+            - text: |
+                Suspensions/bans equal to or greater than 2 weeks will be accompanied by a discord mute for the duration of the penalty. Mute duration may be lessened 
+                by the officials at their discretion.
+        - index: 10.7
+          title:  Team Sanctions
+          rules:
+            - text: |
+                Team sanctions will be applied based on the team's total penalty points, meaning the total points assigned to the team plus any points assigned to the 
+                team’s rostered members. If a team removes a player whose points contributed to a team sanction, the team’s total penalty points may be reduced but the 
+                sanction will not.
+              rules:
+                - text: "After obtaining 14 penalty points: 1 week suspension"
+                - text: "After obtaining 20 penalty points: SRS reduction"
+                - text: "After obtaining 24 penalty points: SRS Reduction"
+                - text: "After obtaining 30 penalty points: Team forced inactive for the season"
+        - index: 10.8
+          title:  Point Decay
+          rules:
+            - text: |
+                Expiration periods for both team and player penalty points run from the date of the latest infraction. For example, a player with 2 points who 
+                earns a third point will hold all 3 points for 3 months from the date of her last infraction.
+              ulwrap: true
+              rules:
+                - text: "1-2 penalty points: 2 months"
+                - text: "3-6 penalty points: 3 months"
+                - text: "7+ penalty points: 6 months"
+        - index: 10.9
+          title:  Point Decay
+          rules:
+            - highlighted: new
+              text: Additional clarification is required to properly explain the nature of the penalty.
+              ulwrap: true
+              rules:
+                - highlighted: new
+                  text: "Penalty Points:"
                   ulwrap: true
                   rules:
-                        - text: |
-                          If an opposing player disconnects during a map, teams are not required to drop a reservist to comply with this rule until the map is over.
-                - text: |
-                    Any team fielding an invalid player will be treated as a rule violation <a href="#invalid_player" class="text-ivrl-light-blue">Invalid Player</a>.
-            - text: |
-                Casted matches - Spoilers
-              ulwrap: true
-              rules:
-                - text: |
-                    Players may not participate in the stream chat of casts of matches in which they have played unless and until the final round of the match ends on the cast.
-                - highlight: new
-                  text: |
-                      If a casted team's player is subbed out, they can participate in the stream chat of casts AFTER the rounds they played in are finished.
-                - text: |
-                    Participating in the stream chat of a cast of a player’s own match before the cast shows the end of the final round will incur penalty points <a href="#participating_in_cast_of_your_match" class="text-ivrl-light-blue">Participating in cast of your match</a>.
-        - index: 2.4
-          title: After the Match
+                    - highlighted: new
+                      text: |
+                        If a player is removed from a team, any infractions of a player that occurred while they were rostered will be assessed as part of the team 
+                        total for those infractions. After the Team total has been reviewed and any penalties applied, the points will be removed for future violations 
+                        due to the player leaving.
+                - highlighted: new
+                  text: "Suspension:"
+                  ulwrap: true
+                  rules:
+                    - highlighted: new
+                      text: |
+                        All account of the use of suspension relate to season weeks of play. This means that breaks and off-season time periods do not count for 
+                        suspended weeks. Also, if a match is postponed from a week a player had an active suspension, they are not eligible to play in that match.
+                - highlighted: new
+                  text: "Forced Team Inactivity:"
+                  ulwrap: true
+                  rules:
+                    - highlighted: new
+                      text: |
+                        If a team accumulates enough points to receive a penalty of forced inactivity, restrictions will be placed on the players if the team 
+                        disbands. Following disbandment, no more than 2 of the members may join a different team at the same time. In addition, no single player 
+                        may hold a captain or co-captain role. These restrictions will be removed after the original time of the forced inactivity is served.
+                - highlighted: new
+                  text: "Excessive Delay:"
+                  ulwrap: true
+                  rules:
+                    - highlighted: new
+                      text: |
+                        The forfeit must be established at the time of the incident via notification to IVRL with a ticket.
+                    - highlighted: new
+                      text: |
+                        If a map is played after enough members join, a forfeit will not be considered even if a team was at fault of an Excessive Delay.
+        - index: 10.9
+          title:  Point Decay
           rules:
-            - text: |
-                Either team in a match should submit scores as soon as practicable post game.
-            - text: |
-                The submitting team's score must be:
+            - highlighted: new
+              text: |
+                IVRL Officials are human. We do our best to serve and protect the interests of the community, and the competitive integrity of the league. 
+                From time to time, we can error in our judgement and for this reason some disciplinary decisions can be appealed to the Player Advisory Committee.
               ulwrap: true
               rules:
-                  - text: |
-                      confirmed by their opponent, locking in the result or
-                  - text: |
-                      amended for errors by their match opponent and confirmed by the original submitter.
-            - text: |
-                Scores shall be submitted no later than 24 hours after match is completed.
-            - text: |
-                Failure to confirm/amend by the second team after 24 hours will result in automatic acceptance of submitted score.
-            - text: |
-                Failure by both teams to submit the results of a scheduled match is considered a team rule violation <a href="#late_scores" class="text-ivrl-light-blue">Late Scores</a>.
-            - text: |
-                All disputes concerning scoring must be made via Discord ticket.
+                - highlight: new
+                  text: | 
+                    Appeals are restricted to Grade 1 and Grade 2 Infractions or other significant penalties that result in suspension, ban, and/or match forfeits. 
+                    Grade 3 Infractions are minor and outside of the bounds of the appeal process.  
+                - text: Appeals must be made within five days of a decision in the form of a ticket.
+                - text: |
+                    The PAC must be presented with the original evidence and information collected. No new evidence should be added unless the PAC believes 
+                    it is material to the subject matter.
+                - text: Additional questions may be put to relevant parties by the IVRL team where at least 2 members of the PAC agree.
+                - text: The PAC will vote on the outcome within 3 days.
+                - text: "The PAC may:"
+                  ulwrap: true
+                  rules:
+                    - text: uphold the decision;
+                    - text: recommend an alternative sanction - officials are not required to apply the alternative sanction; or
+                    - text: by a unanimous vote of 100%, the PAC may overturn a decision.
+                - text: |
+                    The PAC Chair will provide a short summary of its determination which will be added to the original decision document. 
+                    The decision document shall be republished.
+
+
+
+
+
